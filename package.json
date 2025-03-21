@@ -1,0 +1,18 @@
+{
+  "name": "stream-proxy",
+  "version": "1.0.0",
+  "description": "A Node.js streaming proxy server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "node-fetch": "^2.6.7",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
